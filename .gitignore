@@ -1,5 +1,7 @@
 # compiled output
-/js
+# /js
+/js/tests
+
 /tmp
 
 # dependencies
