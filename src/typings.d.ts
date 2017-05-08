@@ -16,6 +16,15 @@ declare module 'grpc' {
     class ServerCredentials {
       static createInsecure(): any;
     }
+
+    class Metadata {
+      
+      constructor();
+      set<T>(key: string, value: T): void;
+      add<T>(key: string, value: T): void;
+
+      getMap(): any;
+    }
   }
 
   export = grpc;
